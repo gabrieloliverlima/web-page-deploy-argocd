@@ -27,5 +27,5 @@ spec:
   ports:
     - port: 80       # Porta interna do cluster
       targetPort: 80 # Porta no pod
-      nodePort: 33000 # Porta exposta no nó
+      nodePort: 32200 # Porta exposta no nó
   type: NodePort
